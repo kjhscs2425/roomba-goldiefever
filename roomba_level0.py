@@ -5,7 +5,7 @@
 # Author: Dr. EB <------ REPLACE THIS WITH YOUR NAME!
 # -----------------------------------------------------------------------------
  
-from turtle import right, left, forward, backward
+from turtle import right, left, forward, backward, shape
 import room
 
 # Draw the Level 0 version of the room
@@ -13,6 +13,9 @@ window = room.draw_room(level = 0)
 
 ###
 # Start your code here
+shape("classic")
+
+
  
  
  
